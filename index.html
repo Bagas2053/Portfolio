@@ -1,34 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="id">
 
 <head>
-    <!-- Informasi dasar website -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Judul pada tab browser -->
-    <title>Portfolio | Nanda Bagas</title>
+    <meta name="description"
+        content="Portfolio pribadi Ananda Bagas Hesrian - Siswa Rekayasa Perangkat Lunak dan Junior Web Developer.">
 
-    <!-- Menghubungkan HTML dengan CSS -->
+    <title>Portfolio | Ananda Bagas Hesrian</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap Icons / Library -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 
 <body>
 
-    <!-- ========================================
+    <!-- =====================================================
          HEADER / NAVBAR
-    ========================================= -->
+    ====================================================== -->
+
     <header class="header">
 
         <nav class="navbar">
 
-            <!-- Logo / Nama -->
             <a href="#home" class="logo">
                 Ananda<span>.</span>
             </a>
 
-            <!-- Menu Navigasi -->
             <ul class="nav-menu">
 
                 <li>
@@ -40,11 +44,23 @@
                 </li>
 
                 <li>
+                    <a href="#education">Pendidikan</a>
+                </li>
+
+                <li>
+                    <a href="#experience">Pengalaman</a>
+                </li>
+
+                <li>
                     <a href="#skills">Skill</a>
                 </li>
 
                 <li>
                     <a href="#projects">Project</a>
+                </li>
+
+                <li>
+                    <a href="#activities">Kegiatan</a>
                 </li>
 
                 <li>
@@ -58,15 +74,17 @@
     </header>
 
 
-    <!-- ========================================
-         MAIN CONTENT
-    ========================================= -->
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
     <main>
 
 
-        <!-- ====================================
-             HOME / HERO
-        ===================================== -->
+        <!-- =================================================
+             HERO / BERANDA
+        ================================================== -->
+
         <section id="home" class="hero">
 
             <div class="hero-content">
@@ -85,17 +103,19 @@
 
                 <p class="hero-description">
                     Saya adalah siswa SMK jurusan Rekayasa Perangkat Lunak
-                    yang memiliki ketertarikan dalam pengembangan website
-                    dan teknologi web.
+                    yang memiliki ketertarikan dalam pengembangan website,
+                    teknologi web, dan pembuatan project digital.
                 </p>
 
                 <div class="hero-buttons">
 
                     <a href="#projects" class="button">
+                        <i class="bi bi-folder"></i>
                         Lihat Project
                     </a>
 
                     <a href="#contact" class="button button-outline">
+                        <i class="bi bi-envelope"></i>
                         Hubungi Saya
                     </a>
 
@@ -104,22 +124,21 @@
             </div>
 
 
-            <!-- Foto Profil -->
             <div class="hero-image">
 
-                <img
-                    src="img/photo.jpeg"
-                    alt="Foto profil Ananda Bagas Hesrian"
-                >
+                <img src="img/photo.jpeg"
+                    alt="Foto profil Ananda Bagas Hesrian">
 
             </div>
 
         </section>
 
 
-        <!-- ====================================
-             ABOUT / TENTANG SAYA
-        ===================================== -->
+
+        <!-- =================================================
+             TENTANG SAYA
+        ================================================== -->
+
         <section id="about" class="about">
 
             <div class="section-header">
@@ -132,62 +151,69 @@
                     Kenali Saya Lebih Dekat
                 </h2>
 
+                <p>
+                    Profil singkat dan bidang yang sedang saya tekuni.
+                </p>
+
             </div>
 
 
             <div class="about-content">
 
-                <!-- Foto -->
+
                 <div class="about-image">
 
-                    <img
-                        src="img/photo2.jpeg"
-                        alt="Foto profil Ananda Bagas Hesrian"
-                    >
+                    <img src="img/photo2.jpeg"
+                        alt="Foto Ananda Bagas Hesrian">
 
                 </div>
 
 
-                <!-- Informasi -->
                 <article class="about-text">
 
                     <h3>
-                        Saya adalah seorang Junior Web Developer
+                        Siswa Rekayasa Perangkat Lunak
                     </h3>
 
                     <p>
                         Saya merupakan siswa SMK jurusan Rekayasa Perangkat
-                        Lunak yang sedang mempelajari pengembangan website.
+                        Lunak yang sedang mempelajari pengembangan website
+                        dan teknologi digital.
                     </p>
 
                     <p>
-                        Saya memiliki ketertarikan dalam membuat website
-                        yang sederhana, rapi, mudah digunakan, dan
-                        responsive pada berbagai perangkat.
+                        Saya tertarik mempelajari bagaimana sebuah website
+                        dibuat mulai dari struktur halaman, tampilan,
+                        hingga penerapan fitur yang dapat digunakan oleh
+                        pengguna.
                     </p>
 
                     <p>
-                        Saat ini saya terus mengembangkan kemampuan dalam
-                        HTML, CSS,dan teknologi web lainnya
-                        melalui berbagai project.
+                        Saya terus mengembangkan kemampuan melalui
+                        pembelajaran di sekolah, Praktik Kerja Lapangan,
+                        dan berbagai project website.
                     </p>
 
 
-                    <!-- Informasi pribadi -->
                     <div class="about-info">
 
                         <div>
-                            <strong>Nama:</strong>
+                            <strong>Nama</strong>
                             <span>Ananda Bagas Hesrian</span>
                         </div>
 
                         <div>
-                            <strong>Pendidikan:</strong>
-                            <span>SMK - Rekayasa Perangkat Lunak</span>
+                            <strong>Status</strong>
+                            <span>Siswa SMK</span>
                         </div>
 
                         <div>
-                            <strong>Fokus:</strong>
+                            <strong>Jurusan</strong>
+                            <span>Rekayasa Perangkat Lunak</span>
+                        </div>
+
+                        <div>
+                            <strong>Fokus</strong>
                             <span>Web Development</span>
                         </div>
 
@@ -200,9 +226,254 @@
         </section>
 
 
-        <!-- ====================================
-             SKILLS / KEMAMPUAN
-        ===================================== -->
+
+        <!-- =================================================
+             PROFIL PROFESIONAL
+        ================================================== -->
+
+        <section class="professional">
+
+            <div class="section-header">
+
+                <p class="section-label">
+                    Profil Profesional
+                </p>
+
+                <h2>
+                    Bidang yang Saya Tekuni
+                </h2>
+
+            </div>
+
+
+            <div class="professional-container">
+
+                <article class="professional-card">
+
+                    <div class="professional-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        Mempelajari pembuatan website menggunakan
+                        HTML, CSS, dan teknologi web lainnya.
+                    </p>
+
+                </article>
+
+
+                <article class="professional-card">
+
+                    <div class="professional-icon">
+                        <i class="bi bi-palette"></i>
+                    </div>
+
+                    <h3>
+                        Web Interface
+                    </h3>
+
+                    <p>
+                        Mempelajari pembuatan tampilan website yang
+                        sederhana, rapi, dan mudah digunakan.
+                    </p>
+
+                </article>
+
+
+                <article class="professional-card">
+
+                    <div class="professional-icon">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+
+                    <h3>
+                        Project Website
+                    </h3>
+
+                    <p>
+                        Mengembangkan project website sebagai media
+                        untuk menerapkan kemampuan yang dipelajari.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PENDIDIKAN
+        ================================================== -->
+
+        <section id="education" class="education">
+
+            <div class="section-header">
+
+                <p class="section-label">
+                    Pendidikan
+                </p>
+
+                <h2>
+                    Riwayat Pendidikan
+                </h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <article class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-year">
+                            Saat Ini
+                        </span>
+
+                        <h3>
+                            SMKN 1 Jenangan
+                        </h3>
+
+                        <h4>
+                            Rekayasa Perangkat Lunak (RPL)
+                        </h4>
+
+                        <p>
+                            Mempelajari dasar pengembangan perangkat lunak,
+                            website, pemrograman, serta teknologi digital.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!--
+                Tambahkan pendidikan sebelumnya di sini
+                jika diperlukan.
+                -->
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PENGALAMAN
+        ================================================== -->
+
+        <section id="experience" class="experience">
+
+            <div class="section-header">
+
+                <p class="section-label">
+                    Pengalaman
+                </p>
+
+                <h2>
+                    Pengalaman Belajar & Project
+                </h2>
+
+                <p>
+                    Pengalaman yang saya dapatkan selama belajar
+                    dan mengerjakan project.
+                </p>
+
+            </div>
+
+
+            <div class="experience-container">
+
+
+                <article class="experience-card">
+
+                    <div class="experience-number">
+                        01
+                    </div>
+
+                    <div>
+
+                        <span class="experience-date">
+                            Praktik Kerja Lapangan
+                        </span>
+
+                        <h3>
+                            Seje Digital
+                        </h3>
+
+                        <p>
+                            Mengikuti kegiatan Praktik Kerja Lapangan
+                            dengan mempelajari proses pembuatan website
+                            dan perancangan tampilan antarmuka.
+                        </p>
+
+                        <div class="tag-container">
+
+                            <span>Web Development</span>
+                            <span>UI Design</span>
+                            <span>Project</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <div class="experience-number">
+                        02
+                    </div>
+
+                    <div>
+
+                        <span class="experience-date">
+                            Project Sekolah
+                        </span>
+
+                        <h3>
+                            Pembuatan Website
+                        </h3>
+
+                        <p>
+                            Membuat beberapa website sebagai latihan
+                            untuk memahami struktur HTML, CSS, tampilan
+                            responsive, dan pengembangan website.
+                        </p>
+
+                        <div class="tag-container">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SKILLS
+        ================================================== -->
+
         <section id="skills" class="skills">
 
             <div class="section-header">
@@ -216,7 +487,7 @@
                 </h2>
 
                 <p>
-                    Beberapa teknologi yang sedang saya pelajari
+                    Beberapa kemampuan yang sedang saya pelajari
                     dan gunakan dalam membuat website.
                 </p>
 
@@ -226,11 +497,12 @@
             <div class="skills-container">
 
 
-                <!-- Skill HTML -->
+                <!-- HTML -->
+
                 <article class="skill-card">
 
                     <div class="skill-icon">
-                        HTML
+                        <i class="bi bi-filetype-html"></i>
                     </div>
 
                     <h3>
@@ -239,17 +511,39 @@
 
                     <p>
                         Digunakan untuk membuat struktur dan
-                        konten website menggunakan semantic HTML.
+                        konten website.
                     </p>
+
+                    <div class="skill-level">
+
+                        <div class="skill-level-info">
+
+                            <span>
+                                Tingkat kemampuan
+                            </span>
+
+                            <strong>
+                                Dasar
+                            </strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 70%;"></span>
+                        </div>
+
+                    </div>
 
                 </article>
 
 
-                <!-- Skill CSS -->
+
+                <!-- CSS -->
+
                 <article class="skill-card">
 
                     <div class="skill-icon">
-                        CSS
+                        <i class="bi bi-filetype-css"></i>
                     </div>
 
                     <h3>
@@ -258,17 +552,39 @@
 
                     <p>
                         Digunakan untuk mengatur tampilan,
-                        layout, warna, dan responsive website.
+                        layout, dan responsive website.
                     </p>
+
+                    <div class="skill-level">
+
+                        <div class="skill-level-info">
+
+                            <span>
+                                Tingkat kemampuan
+                            </span>
+
+                            <strong>
+                                Dasar
+                            </strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 65%;"></span>
+                        </div>
+
+                    </div>
 
                 </article>
 
 
-                <!-- Skill Git -->
+
+                <!-- Git -->
+
                 <article class="skill-card">
 
                     <div class="skill-icon">
-                        GIT
+                        <i class="bi bi-git"></i>
                     </div>
 
                     <h3>
@@ -276,9 +592,152 @@
                     </h3>
 
                     <p>
-                        Digunakan untuk mengelola dan menyimpan
-                        perubahan pada project.
+                        Digunakan untuk mengelola perubahan
+                        dan versi project.
                     </p>
+
+                    <div class="skill-level">
+
+                        <div class="skill-level-info">
+
+                            <span>
+                                Tingkat kemampuan
+                            </span>
+
+                            <strong>
+                                Dasar
+                            </strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 55%;"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- Web Development -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-globe2"></i>
+                    </div>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        Mempelajari proses pembuatan website
+                        dari struktur hingga tampilan.
+                    </p>
+
+                    <div class="skill-level">
+
+                        <div class="skill-level-info">
+
+                            <span>
+                                Tingkat kemampuan
+                            </span>
+
+                            <strong>
+                                Dasar
+                            </strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 60%;"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- AI -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-stars"></i>
+                    </div>
+
+                    <h3>
+                        AI Tools
+                    </h3>
+
+                    <p>
+                        Menggunakan bantuan teknologi AI sebagai
+                        pendukung dalam proses belajar dan project.
+                    </p>
+
+                    <div class="skill-level">
+
+                        <div class="skill-level-info">
+
+                            <span>
+                                Tingkat kemampuan
+                            </span>
+
+                            <strong>
+                                Dasar
+                            </strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 60%;"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- UI -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-vector-pen"></i>
+                    </div>
+
+                    <h3>
+                        UI Design
+                    </h3>
+
+                    <p>
+                        Mempelajari pembuatan rancangan tampilan
+                        antarmuka website.
+                    </p>
+
+                    <div class="skill-level">
+
+                        <div class="skill-level-info">
+
+                            <span>
+                                Tingkat kemampuan
+                            </span>
+
+                            <strong>
+                                Dasar
+                            </strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 55%;"></span>
+                        </div>
+
+                    </div>
 
                 </article>
 
@@ -287,9 +746,11 @@
         </section>
 
 
-        <!-- ====================================
-             PROJECTS / PROJECT
-        ===================================== -->
+
+        <!-- =================================================
+             PROJECT / PORTFOLIO
+        ================================================== -->
+
         <section id="projects" class="projects">
 
             <div class="section-header">
@@ -304,7 +765,7 @@
 
                 <p>
                     Beberapa project yang saya kerjakan
-                    untuk mengembangkan kemampuan saya.
+                    untuk mengembangkan kemampuan.
                 </p>
 
             </div>
@@ -313,17 +774,21 @@
             <div class="projects-container">
 
 
-                <!-- Project 1 -->
+                <!-- PROJECT PORTFOLIO -->
+
                 <article class="project-card">
 
                     <div class="project-image">
 
-                        <img
-                            src="images/project-portfolio.jpg"
-                            alt="Project website portfolio"
-                        >
+                        <img src="img/photo2.jpeg"
+                            alt="Website portfolio pribadi">
+
+                        <span class="project-badge">
+                            Website
+                        </span>
 
                     </div>
+
 
                     <div class="project-content">
 
@@ -337,12 +802,24 @@
 
                         <p>
                             Website portfolio pribadi yang dibuat
-                            menggunakan HTML5 dan CSS untuk
-                            menampilkan profil dan kemampuan saya.
+                            untuk menampilkan profil, pendidikan,
+                            pengalaman, kemampuan, kegiatan,
+                            dan project.
                         </p>
 
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+
+                        </div>
+
+
                         <a href="#home" class="project-link">
-                            Lihat Project →
+                            Lihat Portfolio
+                            <i class="bi bi-arrow-right"></i>
                         </a>
 
                     </div>
@@ -350,17 +827,22 @@
                 </article>
 
 
-                <!-- Project 2 -->
+
+                <!-- PROJECT GENSHOES -->
+
                 <article class="project-card">
 
                     <div class="project-image">
 
-                        <img
-                            src="images/project-2.jpg"
-                            alt="Project website kedua"
-                        >
+                        <img src="img/photo.jpeg"
+                            alt="Website toko GenShoes">
+
+                        <span class="project-badge">
+                            Mini Project
+                        </span>
 
                     </div>
+
 
                     <div class="project-content">
 
@@ -369,17 +851,33 @@
                         </p>
 
                         <h3>
-                            Project Website
+                            GenShoes
                         </h3>
 
                         <p>
-                            Project website yang dibuat sebagai
-                            latihan untuk mengembangkan kemampuan
-                            dalam membangun sebuah website.
+                            Website toko online yang dibuat sebagai
+                            mini project untuk menerapkan konsep
+                            website dinamis dan pengelolaan data.
                         </p>
 
-                        <a href="https://genshoes.infinityfreeapp.com/" target="_blank" class="project-link">
-                            Lihat Toko →
+
+                        <div class="project-tags">
+
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>CRUD</span>
+
+                        </div>
+
+
+                        <a href="https://genshoes.infinityfreeapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link">
+
+                            Kunjungi Website
+                            <i class="bi bi-box-arrow-up-right"></i>
+
                         </a>
 
                     </div>
@@ -391,9 +889,326 @@
         </section>
 
 
-        <!-- ====================================
-             CONTACT / KONTAK
-        ===================================== -->
+
+        <!-- =================================================
+             SERTIFIKAT / PRESTASI
+        ================================================== -->
+
+        <section id="certificates" class="certificates">
+
+            <div class="section-header">
+
+                <p class="section-label">
+                    Sertifikat
+                </p>
+
+                <h2>
+                    Sertifikat & Prestasi
+                </h2>
+
+                <p>
+                    Sertifikasi, pelatihan, atau kompetensi
+                    yang telah diperoleh.
+                </p>
+
+            </div>
+
+
+            <div class="certificate-container">
+
+
+                <article class="certificate-card">
+
+                    <div class="certificate-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Kompetensi
+                        </span>
+
+                        <h3>
+                            Junior Web Developer
+                        </h3>
+
+                        <p>
+                            Sedang mengikuti proses pembuktian
+                            kompetensi melalui ujian praktik.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="certificate-card">
+
+                    <div class="certificate-icon">
+                        <i class="bi bi-patch-check"></i>
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Sertifikat
+                        </span>
+
+                        <h3>
+                            Sertifikat & Pelatihan
+                        </h3>
+
+                        <p>
+                            Bagian ini dapat diperbarui dengan
+                            sertifikat yang telah diperoleh.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             KEGIATAN
+        ================================================== -->
+
+        <section id="activities" class="activities">
+
+            <div class="section-header">
+
+                <p class="section-label">
+                    Kegiatan
+                </p>
+
+                <h2>
+                    Dokumentasi Kegiatan
+                </h2>
+
+                <p>
+                    Beberapa kegiatan belajar dan pengerjaan project.
+                </p>
+
+            </div>
+
+
+            <div class="activities-container">
+
+
+                <article class="activity-card">
+
+                    <div class="activity-image">
+
+                        <img src="img/photo.jpeg"
+                            alt="Kegiatan belajar dan project">
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <span>
+                            Pembelajaran
+                        </span>
+
+                        <h3>
+                            Belajar Web Development
+                        </h3>
+
+                        <p>
+                            Mempelajari struktur dan pembuatan
+                            website menggunakan teknologi web.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="activity-card">
+
+                    <div class="activity-image">
+
+                        <img src="img/photo2.jpeg"
+                            alt="Kegiatan project website">
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <span>
+                            Project
+                        </span>
+
+                        <h3>
+                            Pengerjaan Project Website
+                        </h3>
+
+                        <p>
+                            Mengerjakan project website sebagai
+                            penerapan dari pembelajaran yang diperoleh.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="activity-card">
+
+                    <div class="activity-image">
+
+                        <img src="img/photo.jpeg"
+                            alt="Kegiatan Praktik Kerja Lapangan">
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <span>
+                            PKL
+                        </span>
+
+                        <h3>
+                            Praktik Kerja Lapangan
+                        </h3>
+
+                        <p>
+                            Mengikuti kegiatan PKL dan mempelajari
+                            proses pengerjaan project digital.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ARTIKEL / BLOG
+        ================================================== -->
+
+        <section id="articles" class="articles">
+
+            <div class="section-header">
+
+                <p class="section-label">
+                    Artikel
+                </p>
+
+                <h2>
+                    Catatan & Pembelajaran
+                </h2>
+
+                <p>
+                    Beberapa hal yang saya pelajari selama
+                    mengembangkan kemampuan di bidang web.
+                </p>
+
+            </div>
+
+
+            <div class="articles-container">
+
+
+                <article class="article-card">
+
+                    <div class="article-icon">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Web Development
+                        </span>
+
+                        <h3>
+                            Mengenal Struktur Website
+                        </h3>
+
+                        <p>
+                            Memahami bagaimana HTML digunakan
+                            untuk membangun struktur sebuah halaman
+                            website.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article-card">
+
+                    <div class="article-icon">
+                        <i class="bi bi-phone"></i>
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Responsive Design
+                        </span>
+
+                        <h3>
+                            Website Responsive
+                        </h3>
+
+                        <p>
+                            Mempelajari pentingnya membuat tampilan
+                            website yang dapat menyesuaikan berbagai
+                            ukuran perangkat.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article-card">
+
+                    <div class="article-icon">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Pembelajaran
+                        </span>
+
+                        <h3>
+                            Belajar Melalui Project
+                        </h3>
+
+                        <p>
+                            Project menjadi salah satu cara untuk
+                            menerapkan dan memahami materi yang
+                            telah dipelajari.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             KONTAK
+        ================================================== -->
+
         <section id="contact" class="contact">
 
             <div class="section-header">
@@ -407,8 +1222,7 @@
                 </h2>
 
                 <p>
-                    Jika ingin menghubungi saya atau berdiskusi
-                    mengenai project, silakan hubungi saya.
+                    Silakan hubungi saya melalui media berikut.
                 </p>
 
             </div>
@@ -416,8 +1230,14 @@
 
             <div class="contact-container">
 
-                <!-- Email -->
+
+                <!-- GITHUB -->
+
                 <article class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="bi bi-github"></i>
+                    </div>
 
                     <h3>
                         GitHub
@@ -427,15 +1247,26 @@
                         Bagas2053
                     </p>
 
-                    <a href="https://github.com/Bagas2053">
-                        GitHub
+                    <a href="https://github.com/Bagas2053"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Lihat GitHub
+                        <i class="bi bi-arrow-right"></i>
+
                     </a>
 
                 </article>
 
 
-                <!-- Instagram -->
+
+                <!-- INSTAGRAM -->
+
                 <article class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="bi bi-instagram"></i>
+                    </div>
 
                     <h3>
                         Instagram
@@ -445,15 +1276,26 @@
                         @nandabagas
                     </p>
 
-                    <a href="https://www.instagram.com/nndacell2?igsi=ZmYxeHprbzVrMXFt" target="_blank">
+                    <a href="https://www.instagram.com/nndacell2?igsi=ZmYxeHprbzVrMXFt"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
                         Instagram
+                        <i class="bi bi-arrow-right"></i>
+
                     </a>
 
                 </article>
 
 
-                <!-- Lokasi -->
+
+                <!-- LOKASI -->
+
                 <article class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
 
                     <h3>
                         Lokasi
@@ -462,6 +1304,10 @@
                     <p>
                         Indonesia
                     </p>
+
+                    <span class="contact-location">
+                        Indonesia
+                    </span>
 
                 </article>
 
@@ -472,15 +1318,71 @@
     </main>
 
 
-    <!-- ========================================
+
+    <!-- =====================================================
          FOOTER
-    ========================================= -->
+    ====================================================== -->
+
     <footer class="footer">
 
-        <p>
-            &copy; 2026 Nanda Bagas.
-            Semua Hak Dilindungi.
-        </p>
+        <div class="footer-content">
+
+            <div>
+
+                <a href="#home" class="footer-logo">
+                    Ananda<span>.</span>
+                </a>
+
+                <p>
+                    Junior Web Developer
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#about">Tentang</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Kontak</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <a href="https://github.com/Bagas2053"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub">
+
+                    <i class="bi bi-github"></i>
+
+                </a>
+
+                <a href="https://www.instagram.com/nndacell2?igsi=ZmYxeHprbzVrMXFt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram">
+
+                    <i class="bi bi-instagram"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Ananda Bagas Hesrian.
+                Semua Hak Dilindungi.
+            </p>
+
+        </div>
 
     </footer>
 
@@ -488,4 +1390,3 @@
 </body>
 
 </html>
-
